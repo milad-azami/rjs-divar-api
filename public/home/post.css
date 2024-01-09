@@ -1,0 +1,191 @@
+.post {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  max-width: 1000px;
+  margin: 0 auto;
+  column-gap: 50px;
+}
+.post nav {
+  grid-column: 1/-1;
+}
+
+/* post content  */
+.post-content {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+.post-title-h1 {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 900;
+  line-height: 1.5;
+}
+.post-title-location {
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+  margin: 8px 0 16px;
+}
+
+.button {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 2.5rem;
+  justify-content: center;
+  line-height: normal;
+  min-width: 6rem;
+  overflow: hidden;
+  padding: 0 16px;
+}
+.post-button-action {
+  background-color: #a62626;
+}
+
+.post-button-chat {
+  margin-right: 10px;
+  flex: 0 0 110px;
+  border-color: rgba(0, 0, 0, 0.48);
+  color: rgba(0, 0, 0, 0.87);
+  background-color: transparent;
+}
+
+.post-button-chat:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.post-action {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.post-bookmark {
+  width: 15px;
+  margin-right: auto;
+}
+
+.post-share {
+  width: 15px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+/* post list  */
+hr {
+  background-color: rgba(0, 0, 0, 0.12);
+  border: none;
+  box-sizing: border-box;
+  height: 1px;
+  margin: 0;
+}
+.post-row {
+  color: rgba(0, 0, 0, 0.56);
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  justify-content: space-between;
+  line-height: 2;
+  min-height: 48px;
+  padding: 8px 0;
+  white-space: normal;
+}
+
+.post-landing-mobile {
+  display: flex;
+  align-items: center;
+}
+
+.post-landing-mobile img {
+  width: 18px;
+  margin-left: 10px;
+}
+
+.post-landing-arrow {
+  width: 18px;
+}
+
+/* description */
+
+.post-description {
+  margin-top: 16px;
+}
+.post-description-title {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.post-description-detail {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+/* post image  */
+.post-image {
+  margin-right: 10%;
+  padding-top: 20px;
+  padding-left: 20px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.post-thumbnail {
+  display: flex;
+  justify-content: center;
+}
+.post-thumbnail img {
+  max-width: 490px;
+}
+
+.post-note-input {
+  background: #fff;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.post-note-input textarea {
+  background: none;
+  border: 1px solid rgb(0, 0, 0. 0.2);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.2);
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+  min-height: 7.5rem;
+  outline: none;
+  padding: 8px 16px;
+  resize: none;
+  width: 100%;
+}
+
+.post-note p {
+  color: rgba(0,0,0,.56);
+  font-size: .75rem;
+  margin-top: 4px;
+}
+
+.post-privacy {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.post-privacy p {
+  color: rgba(0,0,0,.56);
+    font-size: .875rem;
+}
+.post-privacy img {
+  margin-left: 10px;
+  width: 18px;
+}

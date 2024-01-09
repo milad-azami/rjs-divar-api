@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Dirooz, sans-serif;
+}
+/* Public style */
+
+@font-face {
+  font-family: "Dirooz";
+  src: url("./Dirooz.ttf");
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------------ */
